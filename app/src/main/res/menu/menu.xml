@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.paulosalvatore.codelab_android_a9_mt_menu_25_04_18.MainActivity">
+
+    <item
+        android:id="@+id/mnBusca"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/busca"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mnInfo"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/informacoes"
+        app:showAsAction="never" />
+
+</menu>
